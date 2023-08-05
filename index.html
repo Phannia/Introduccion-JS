@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/2356479ffa.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="item-box">
+            <img class="imgitem-box" src="./assets/img/GE73-Raider-RGB-8RF_1.png" alt="laptop MSI modelo GE73 Raider con RBG">
+            <p>Laptop Gamer MSI GE73 RGB</p>
+            <input class="amount" type="text" value="cantidad">
+            <select name="laptopcolor" id="laptopcolor">
+                <option value="--">Color</option>
+                <option value="darkblue">Dark blue</option>
+                <option value="darkred">Dark red</option>
+                <option value="black">Black</option>
+                <option value="lightgray">Light gray</option>
+            </select>
+            <p>Precio por unidad: $850.000</p>
+            <button class="button" onclick="calculate()">
+                Calcular total
+            </button>
+        </div>
+        <div class="finalamount">
+            <p>Total:
+                <span class="finalprice"> </span>
+            </p>
+            <p>Cantidad: 
+                <span class="quantity"> </span>
+            </p>
+            <p>Color:
+                <span class="colorcircle"><i class="circle fa-solid fa-circle"></i></span>
+            </p>
+        </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

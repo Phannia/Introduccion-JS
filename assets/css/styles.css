@@ -1,0 +1,70 @@
+*{
+    background-color: rgb(154, 153, 153);
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.item-box{
+    background-color: rgb(36, 119, 36);
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(26, 25, 25);
+    border-radius: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.imgitem-box{
+    background-color: rgb(36, 119, 36);
+    width: 60%;
+    padding: 15px;
+}
+
+.item-box p{
+    background-color: rgb(36, 119, 36);
+    font-size: 23px;
+    padding: 10px;
+    text-align: center;
+}
+
+.amount{
+    font-size: 23px;
+    margin: 10px;
+    text-align: center;
+}
+
+#laptopcolor{
+    font-size: 23px;
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+
+.button{
+    font-size: 23px;
+    width: 50%;
+    padding: 0.3rem;
+}
+
+
+/* Cálculo Final */
+.finalamount{
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+}
+
+.finalamount p{
+    padding: 10px;
+}
